@@ -19,7 +19,7 @@ export const HomeComponent: React.FC = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentTime(moment());
-            if (timeBetween.days() === 3 && timeBetween.hours() === 8 && timeBetween.minutes() === 35 && timeBetween.seconds() === 10) {
+            if (timeBetween.days() === 3 && timeBetween.hours() === 8 && timeBetween.minutes() === 25 && timeBetween.seconds() === 10) {
                 setHidden(true)
                 setShowModal(true)
             }
