@@ -104,7 +104,7 @@ export const HomeComponent: React.FC = () => {
                     :
                     <>
                         <div>
-                            <div className={styles.home_heading_text}>Countdown for <span className={styles.home_text_highlight}>sonia`s</span> birthday</div>
+                            <div className={styles.home_heading_text}>Ada apa hayo? <span className={styles.home_text_highlight}>Tunggu aja oke</span></div>
                         </div>
                         <div className={styles.home_countdown_wrapper}>
                             <div className={styles.home_countdown_box}>
