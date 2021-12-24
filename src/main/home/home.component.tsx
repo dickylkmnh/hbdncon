@@ -103,27 +103,7 @@ export const HomeComponent: React.FC = () => {
                     </div>
                     :
                     <>
-                        <div>
-                            <div className={styles.home_heading_text}>Ada apa hayo? <span className={styles.home_text_highlight}>Tunggu aja oke</span></div>
-                        </div>
-                        <div className={styles.home_countdown_wrapper}>
-                            <div className={styles.home_countdown_box}>
-                                <span>{timeBetween.days()}</span>
-                                <span className={styles.home_countdown_legend}>Days</span>
-                            </div>
-                            <div className={styles.home_countdown_box}>
-                                <span>{timeBetween.hours()}</span>
-                                <span className={styles.home_countdown_legend}>Hours</span>
-                            </div>
-                            <div className={styles.home_countdown_box}>
-                                <span>{timeBetween.minutes()}</span>
-                                <span className={styles.home_countdown_legend}>Minutes</span>
-                            </div>
-                            <div className={styles.home_countdown_box}>
-                                <span>{timeBetween.seconds()}</span>
-                                <span className={styles.home_countdown_legend}>Seconds</span>
-                            </div>
-                        </div>
+                        <Button variant="primary" onClick={() => setShowModal(true)}>Klik disini</Button>
                     </>
                 }
             </div>
